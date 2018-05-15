@@ -1,5 +1,5 @@
 '''
-First we have the simplest way. All we do is check each number in the range 3<=i<=1000
+First we have the simplest way. All we do is check each number in the range 3<=i<1000
 for divisibility by 3 or 5, then add it to the total.
 '''
 def solution1(n):
