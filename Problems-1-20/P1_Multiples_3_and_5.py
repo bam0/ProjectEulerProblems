@@ -1,3 +1,4 @@
+# Problem: Find the sum of all the multiples of 3 or 5 below 1000.
 '''
 First we have the simplest way. All we do is check each number in the range 3<=i<1000
 for divisibility by 3 or 5, then add it to the total.
