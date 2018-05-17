@@ -9,7 +9,6 @@ First is the more brute-force way. We just keep checking numbers until we reach 
 of 10001 by using our prime-checker.
 '''
 import math
-import time
 def prime_checker(n):
     for i in range(3, int(n**0.5+1), 2):  # Increment up to sqrt(n) by 2
         if n%i==0:
