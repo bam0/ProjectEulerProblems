@@ -34,8 +34,8 @@ def primes_sieve(n):
     for (i, is_prime) in enumerate(a):
         if is_prime:
             yield i
-            for n in range(i*i, n, i):     # Set the non-primes to False
-                a[n] = False
+            for x in range(i*i, n, i):     # Set the non-primes to False
+                a[x] = False
 '''
 You will see now that we are setting the limit for the prime sieve to be a
 seemingly arbitrary expression. What we're actually doing is using the approximation
