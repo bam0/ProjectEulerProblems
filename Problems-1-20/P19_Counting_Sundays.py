@@ -29,7 +29,7 @@ def how_many(n):
         if is_leap(year):                # Check if leap, then change days to 29 for Feb
             months[2]=29
         for month in range(1, 13):
-            if day==0:                   # If Sunday, increase count
+            if day==n:                   # If Sunday, increase count
                 count+=1
             day = (day+months[month])%7  # Add days in the month to day and take it mod 7
         months[2]=28                     # Change back number of days in Feb
