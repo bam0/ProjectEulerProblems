@@ -22,7 +22,9 @@ def check_one(tup):
     b = sum(10**(4-i)*tup[i] for i in range(1, 5))        # Get the next 4
     c = sum(10**(4-i)*tup[i+4] for i in range(1, 5))      # And the final 4
     return c if a*b==c else 0
-
+'''
+Check the second form - 00 * 000 = 0000:
+'''
 def check_two(tup):
     a = 10*tup[0]+tup[1]                                  # Get the first 2 digits
     b = sum(10**(3-i)*tup[i+1] for i in range(1, 4))      # The next 3
