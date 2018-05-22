@@ -16,7 +16,7 @@ def solution1(n):
 '''
 That was almost too easy, wasn't it? Surely we can figure out a more elegant way of 
 doing this problem. 
-Well it turns out we can simply the process a lot by forgetting about actually calculating
+Well it turns out we can simplify the process a lot by forgetting about actually calculating
 all those powers. Instead, we focus on the exponents. Starting from 2, we calculate all its
 possible exponents (2-100), then we take 2^2 and multiply all the existing exponents by 2.
 We keep doing this for each power of 2 until we get to 2^6=64, the last power of 2 less than 
