@@ -62,4 +62,4 @@ def solution3():
             n += 3             # Check multiples of 3
         i += 1
 
-print('Smallest permuted multiple:', solution1()) # Smallest permuted multiple: 142857
+print('Smallest permuted multiple:', solution3()) # Smallest permuted multiple: 142857
