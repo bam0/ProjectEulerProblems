@@ -60,7 +60,3 @@ def solution():
     return optimal(coins, amount)
 
 print('Number of ways:', solution())   # Number of ways: 73682
-
-
-
-
